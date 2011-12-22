@@ -1,0 +1,21 @@
+//
+//  ImageViewController.h
+//  ImageSaving
+//
+//  Created by Admin on 22/12/11.
+//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ImageViewController : UIViewController
+{
+    IBOutlet UIImageView *imageView;
+    IBOutlet UIActivityIndicatorView *indicatorView;
+  
+   
+}
+-(void)buttonclicked;
+- (void)removeImage:(NSString*)fileName;
+
+@end

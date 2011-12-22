@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D3DEA914A331C400AE5242 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D3DEA814A331C400AE5242 /* UIKit.framework */; };
+		84D3DEAB14A331C400AE5242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D3DEAA14A331C400AE5242 /* Foundation.framework */; };
+		84D3DEB114A331C400AE5242 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D3DEAF14A331C400AE5242 /* InfoPlist.strings */; };
+		84D3DEB314A331C400AE5242 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D3DEB214A331C400AE5242 /* main.m */; };
+		84D3DEB714A331C400AE5242 /* ImageAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D3DEB614A331C400AE5242 /* ImageAppDelegate.m */; };
+		84D3DEBA14A331C400AE5242 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D3DEB914A331C400AE5242 /* ImageViewController.m */; };
+		84D3DEBD14A331C400AE5242 /* ImageViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D3DEBB14A331C400AE5242 /* ImageViewController_iPhone.xib */; };
+		84D3DEC014A331C400AE5242 /* ImageViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D3DEBE14A331C400AE5242 /* ImageViewController_iPad.xib */; };
+		84D3DEC814A331C400AE5242 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D3DEC714A331C400AE5242 /* SenTestingKit.framework */; };
+		84D3DEC914A331C400AE5242 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D3DEA814A331C400AE5242 /* UIKit.framework */; };
+		84D3DECA14A331C400AE5242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D3DEAA14A331C400AE5242 /* Foundation.framework */; };
+		84D3DED214A331C400AE5242 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D3DED014A331C400AE5242 /* InfoPlist.strings */; };
+		84D3DED514A331C400AE5242 /* ImageSavingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D3DED414A331C400AE5242 /* ImageSavingTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D3DECB14A331C400AE5242 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D3DE9B14A331C400AE5242 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D3DEA314A331C400AE5242;
+			remoteInfo = ImageSaving;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D3DEA414A331C400AE5242 /* ImageSaving.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSaving.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D3DEA814A331C400AE5242 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84D3DEAA14A331C400AE5242 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84D3DEAE14A331C400AE5242 /* ImageSaving-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageSaving-Info.plist"; sourceTree = "<group>"; };
+		84D3DEB014A331C400AE5242 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84D3DEB214A331C400AE5242 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D3DEB414A331C400AE5242 /* ImageSaving-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageSaving-Prefix.pch"; sourceTree = "<group>"; };
+		84D3DEB514A331C400AE5242 /* ImageAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageAppDelegate.h; sourceTree = "<group>"; };
+		84D3DEB614A331C400AE5242 /* ImageAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageAppDelegate.m; sourceTree = "<group>"; };
+		84D3DEB814A331C400AE5242 /* ImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		84D3DEB914A331C400AE5242 /* ImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		84D3DEBC14A331C400AE5242 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ImageViewController_iPhone.xib; sourceTree = "<group>"; };
+		84D3DEBF14A331C400AE5242 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ImageViewController_iPad.xib; sourceTree = "<group>"; };
+		84D3DEC614A331C400AE5242 /* ImageSavingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSavingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D3DEC714A331C400AE5242 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84D3DECF14A331C400AE5242 /* ImageSavingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageSavingTests-Info.plist"; sourceTree = "<group>"; };
+		84D3DED114A331C400AE5242 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84D3DED314A331C400AE5242 /* ImageSavingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageSavingTests.h; sourceTree = "<group>"; };
+		84D3DED414A331C400AE5242 /* ImageSavingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageSavingTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D3DEA114A331C400AE5242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3DEA914A331C400AE5242 /* UIKit.framework in Frameworks */,
+				84D3DEAB14A331C400AE5242 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3DEC214A331C400AE5242 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3DEC814A331C400AE5242 /* SenTestingKit.framework in Frameworks */,
+				84D3DEC914A331C400AE5242 /* UIKit.framework in Frameworks */,
+				84D3DECA14A331C400AE5242 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D3DE9914A331C400AE5242 = {
+			isa = PBXGroup;
+			children = (
+				84D3DEAC14A331C400AE5242 /* ImageSaving */,
+				84D3DECD14A331C400AE5242 /* ImageSavingTests */,
+				84D3DEA714A331C400AE5242 /* Frameworks */,
+				84D3DEA514A331C400AE5242 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D3DEA514A331C400AE5242 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D3DEA414A331C400AE5242 /* ImageSaving.app */,
+				84D3DEC614A331C400AE5242 /* ImageSavingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D3DEA714A331C400AE5242 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D3DEA814A331C400AE5242 /* UIKit.framework */,
+				84D3DEAA14A331C400AE5242 /* Foundation.framework */,
+				84D3DEC714A331C400AE5242 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D3DEAC14A331C400AE5242 /* ImageSaving */ = {
+			isa = PBXGroup;
+			children = (
+				84D3DEB514A331C400AE5242 /* ImageAppDelegate.h */,
+				84D3DEB614A331C400AE5242 /* ImageAppDelegate.m */,
+				84D3DEB814A331C400AE5242 /* ImageViewController.h */,
+				84D3DEB914A331C400AE5242 /* ImageViewController.m */,
+				84D3DEBB14A331C400AE5242 /* ImageViewController_iPhone.xib */,
+				84D3DEBE14A331C400AE5242 /* ImageViewController_iPad.xib */,
+				84D3DEAD14A331C400AE5242 /* Supporting Files */,
+			);
+			path = ImageSaving;
+			sourceTree = "<group>";
+		};
+		84D3DEAD14A331C400AE5242 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D3DEAE14A331C400AE5242 /* ImageSaving-Info.plist */,
+				84D3DEAF14A331C400AE5242 /* InfoPlist.strings */,
+				84D3DEB214A331C400AE5242 /* main.m */,
+				84D3DEB414A331C400AE5242 /* ImageSaving-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D3DECD14A331C400AE5242 /* ImageSavingTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D3DED314A331C400AE5242 /* ImageSavingTests.h */,
+				84D3DED414A331C400AE5242 /* ImageSavingTests.m */,
+				84D3DECE14A331C400AE5242 /* Supporting Files */,
+			);
+			path = ImageSavingTests;
+			sourceTree = "<group>";
+		};
+		84D3DECE14A331C400AE5242 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D3DECF14A331C400AE5242 /* ImageSavingTests-Info.plist */,
+				84D3DED014A331C400AE5242 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D3DEA314A331C400AE5242 /* ImageSaving */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D3DED814A331C400AE5242 /* Build configuration list for PBXNativeTarget "ImageSaving" */;
+			buildPhases = (
+				84D3DEA014A331C400AE5242 /* Sources */,
+				84D3DEA114A331C400AE5242 /* Frameworks */,
+				84D3DEA214A331C400AE5242 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageSaving;
+			productName = ImageSaving;
+			productReference = 84D3DEA414A331C400AE5242 /* ImageSaving.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D3DEC514A331C400AE5242 /* ImageSavingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D3DEDB14A331C400AE5242 /* Build configuration list for PBXNativeTarget "ImageSavingTests" */;
+			buildPhases = (
+				84D3DEC114A331C400AE5242 /* Sources */,
+				84D3DEC214A331C400AE5242 /* Frameworks */,
+				84D3DEC314A331C400AE5242 /* Resources */,
+				84D3DEC414A331C400AE5242 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D3DECC14A331C400AE5242 /* PBXTargetDependency */,
+			);
+			name = ImageSavingTests;
+			productName = ImageSavingTests;
+			productReference = 84D3DEC614A331C400AE5242 /* ImageSavingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D3DE9B14A331C400AE5242 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 84D3DE9E14A331C400AE5242 /* Build configuration list for PBXProject "ImageSaving" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84D3DE9914A331C400AE5242;
+			productRefGroup = 84D3DEA514A331C400AE5242 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D3DEA314A331C400AE5242 /* ImageSaving */,
+				84D3DEC514A331C400AE5242 /* ImageSavingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D3DEA214A331C400AE5242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3DEB114A331C400AE5242 /* InfoPlist.strings in Resources */,
+				84D3DEBD14A331C400AE5242 /* ImageViewController_iPhone.xib in Resources */,
+				84D3DEC014A331C400AE5242 /* ImageViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3DEC314A331C400AE5242 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3DED214A331C400AE5242 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84D3DEC414A331C400AE5242 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D3DEA014A331C400AE5242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3DEB314A331C400AE5242 /* main.m in Sources */,
+				84D3DEB714A331C400AE5242 /* ImageAppDelegate.m in Sources */,
+				84D3DEBA14A331C400AE5242 /* ImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D3DEC114A331C400AE5242 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D3DED514A331C400AE5242 /* ImageSavingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D3DECC14A331C400AE5242 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D3DEA314A331C400AE5242 /* ImageSaving */;
+			targetProxy = 84D3DECB14A331C400AE5242 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D3DEAF14A331C400AE5242 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D3DEB014A331C400AE5242 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84D3DEBB14A331C400AE5242 /* ImageViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D3DEBC14A331C400AE5242 /* en */,
+			);
+			name = ImageViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		84D3DEBE14A331C400AE5242 /* ImageViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D3DEBF14A331C400AE5242 /* en */,
+			);
+			name = ImageViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+		84D3DED014A331C400AE5242 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D3DED114A331C400AE5242 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D3DED614A331C400AE5242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D3DED714A331C400AE5242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D3DED914A331C400AE5242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageSaving/ImageSaving-Prefix.pch";
+				INFOPLIST_FILE = "ImageSaving/ImageSaving-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84D3DEDA14A331C400AE5242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageSaving/ImageSaving-Prefix.pch";
+				INFOPLIST_FILE = "ImageSaving/ImageSaving-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84D3DEDC14A331C400AE5242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageSaving.app/ImageSaving";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageSaving/ImageSaving-Prefix.pch";
+				INFOPLIST_FILE = "ImageSavingTests/ImageSavingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84D3DEDD14A331C400AE5242 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ImageSaving.app/ImageSaving";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ImageSaving/ImageSaving-Prefix.pch";
+				INFOPLIST_FILE = "ImageSavingTests/ImageSavingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D3DE9E14A331C400AE5242 /* Build configuration list for PBXProject "ImageSaving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3DED614A331C400AE5242 /* Debug */,
+				84D3DED714A331C400AE5242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D3DED814A331C400AE5242 /* Build configuration list for PBXNativeTarget "ImageSaving" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3DED914A331C400AE5242 /* Debug */,
+				84D3DEDA14A331C400AE5242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84D3DEDB14A331C400AE5242 /* Build configuration list for PBXNativeTarget "ImageSavingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D3DEDC14A331C400AE5242 /* Debug */,
+				84D3DEDD14A331C400AE5242 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D3DE9B14A331C400AE5242 /* Project object */;
+}
